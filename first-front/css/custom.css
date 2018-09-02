@@ -1,0 +1,45 @@
+
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+ul.navbar-nav, .jumbotron h1{
+	font-family: 'Arvo', courier, serif;
+}
+
+ul.navbar-nav{
+	font-size: 13px; 
+	margin-bottom: 0px;
+}
+
+.jumbotron {
+	margin-top: 0px;
+    text-align: center;  
+    background-image: url('../images/hero_image.jpg'); 
+    color: white;
+}
+
+.jumbotron h1 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	font-size: 60px;
+}
+.jumbotron p{
+margin-bottom: 30px;
+font-weight: 100;
+font-size: 21px;
+padding: 0 55px;
+
+}
+
+.navbar-brand{
+	font-size: 20px;
+}
+
+
+.btn-lg{
+    font-size: 36px;
+}
+
